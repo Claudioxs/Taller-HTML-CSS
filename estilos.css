@@ -1,0 +1,63 @@
+.imagenes-en-circulos{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+
+}
+
+.rounded-circle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 160px;
+    height: 160px;
+
+}
+
+.tabla-cuadrados{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+
+}
+.notas{
+    border: solid;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+
+}
+
+
+
+
+/*Forlumario*/
+
+
+.Formulario{
+
+  margin: auto;
+  width: 1000px;
+
+}
+
+.tablaFormulario{
+    
+    margin: auto;
+    width: 1000px;
+}
+
+

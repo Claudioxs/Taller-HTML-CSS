@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+
+    <!--Encabezado de la pagina-->
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+        <a class="navbar-brand" href="/index.html">Taller 1</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/formulario.html">Formulario</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/tabla.html">Tabla</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <div class="Formulario">
+        <h1>Registro de nuevo jugador</h1>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputNombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="exampleInputNombre"  placeholder="Jugaodor">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  placeholder="email@host.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEdad" class="form-label">Edad</label>
+                <input type="text" class="form-control" id="exampleInputEdad">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPais" class="form-label">Pais</label>
+                <input type="text" class="form-control" id="exampleInputPais">
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Retirado?</label>
+            </div>
+            <button type="submit" class="btn btn-success"><a href="/tabla.html"></a> Enviar</button>
+        </form>
+       <span></span>
+    </div>
+
+</body>
+
+</html>
